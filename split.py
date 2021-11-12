@@ -1,13 +1,5 @@
 #!/usr/bin/python3
 
-# Program idea code
-"""
-Concept:
-Divide number by 4 to see how many times the place list values can be incremented until recieving an error
-Each iteration the current char will be removed from the string
-Check if there are any remaining characters in the string, if so then add them to a new list value
-"""
-
 
 def split_password(password: str):
     count = len(password)
